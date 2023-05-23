@@ -1,8 +1,7 @@
 //Autofills and submit login form for FAU SSO
 
-var CONFIG = require('./config.json')
-var SSO_username = CONFIG.SSOUsername;
-var SSO_password = CONFIG.SSOPassword;
+var SSO_username = "SSOUsername";
+var SSO_password = "SSOPassword";
 
 function SSOLogin(){
     document.getElementById("username").value = SSO_username;

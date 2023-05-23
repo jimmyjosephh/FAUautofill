@@ -1,8 +1,7 @@
 //Autofills and submit login form for FAU Focus Software
 
-var CONFIG = require('./config.json')
-var username = CONFIG.focusUsername;
-var password = CONFIG.focusPassword;
+var username = "focusUsername";
+var password = "focusPassword";
 
 function focusLogin(){
     document.getElementById("username-input").value = username;

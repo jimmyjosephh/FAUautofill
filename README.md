@@ -1,7 +1,12 @@
 # FAUautofill
 Autofills login details on common FAUHS sites
 
-To set your login details for the program to autofill, open the config.json file and replace with the respective details.
+To set your login details for the program to autofill
+
+1. Open ssoautofill.js and replace SSOUsername with your sso username and SSOPassword with your sso password
+
+
+2. Open focusautofill.js and replace focusUsername with your focus username and focusPassword with your focus password
 
 SSO refers to this site:
 
